@@ -1,18 +1,5 @@
-# ¡Atrapa ese asteroide con poliastro!
+# Catching asteroids and tracking satellites with Python
 
-Charla "¡Atrapa ese asteroide con poliastro!" en la PyConES 2017.
+Press the button to launch a cloud Jupyter notebook with the talk.
 
-http://nbviewer.jupyter.org/format/slides/github/poliastro/pycones2017-talk/blob/master/%C2%A1Atrapa%20ese%20asteroide%20con%20poliastro%21.ipynb
-
-## Instalación
-
-```
-$ pip install -r requirements.txt
-```
-
-Para regenerar las diapositivas [compatibles con ausencia de conexión a Internet](https://github.com/jupyter/nbconvert/issues/91#issuecomment-283736634):
-
-```
-$ jupyter nbconvert "¡Atrapa ese asteroide con poliastro!.ipynb" --to slides --reveal-prefix "https://cdnjs.cloudflare.com/ajax/libs/reveal.js/3.1.0"
-$ python -m http.server
-```
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/v2/gh/Juanlu001/catching-asteroids-tracking-satellites/master?filepath=Talk.ipynb)

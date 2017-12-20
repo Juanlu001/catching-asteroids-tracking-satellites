@@ -1,0 +1,14 @@
+name: pyorbits
+channels:
+- damianavila82
+- conda-forge
+- defaults
+dependencies:
+- python=3.6
+- cartopy
+- poliastro=0.8
+- requests
+- rise
+- sgp4
+- pip:
+  - https://github.com/satellogic/orbit-predictor/archive/master.zip
